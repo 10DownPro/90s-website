@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery</title>
+<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6578/6578020.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/photos/graffiti-brick-wall-picture-id994331952?k=20&m=994331952&s=612x612&w=0&h=EA7PdCNOPsV7oRTSno68GV9zRd_W-n9nb5bBz2WR3W0=");
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-size: 40px;
+  color: rgb(124, 229, 20);
+}
+
+ 
+.navbar {
+  overflow: hidden; 
+  background-color: #333; 
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 25%; 
+  font-size: 30px;
+  background-color: #000000; 
+  padding: 20px; 
+}
+
+
+.main {
+  flex: 75%; 
+  background-image: url(https://wallpaperaccess.com/full/1314202.jpg);
+  padding: 0px; 
+}
+
+.desc {
+  color: rgb(124, 229, 20);
+  
+}
+</style>
+<body>
+  
+ 
+
+  <div class="header">
+    <marquee width="60%" direction="right" height="150px"><h1>GALLERY</h1></marquee>
+  <div class="row">
+    <div class="side">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/home.html">HOME</a></li>
+        <li><a href="http://127.0.0.1:5500/about.html">ABOUT</a></li>
+        <li><a href="http://127.0.0.1:5500/subscribe.html">SUBSCRIBE</a></li>
+        <li><a href="http://127.0.0.1:5500/contact_us.html">CONTACT</a></li>
+     </ul>
+  </div>
+    <div class="main"><div class="gallery">
+      <a target="_blank" href="https://media.vogue.co.uk/photos/5f6388b74e9a23a0c2f6d776/master/pass/GettyImages-111226388.jpg">
+        <img src="https://media.vogue.co.uk/photos/5f6388b74e9a23a0c2f6d776/master/pass/GettyImages-111226388.jpg" alt="Aaliyah" width="600" height="400">
+      </a>
+      <div class="desc">Women's fashion was fly!</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="https://www.essence.com/wp-content/uploads/2021/04/GettyImages-457378904-scaled.jpg">
+        <img src="https://www.essence.com/wp-content/uploads/2021/04/GettyImages-457378904-scaled.jpg" alt="DMX" width="600" height="400">
+      </a>
+      <div class="desc">Timbs & baggy jeans was the thing!</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="https://fashionbombdaily.com/wp-content/uploads/2019/07/BFF307D0-51A7-44A7-9EF5-73CC3D9814B3.jpeg">
+        <img src="https://fashionbombdaily.com/wp-content/uploads/2019/07/BFF307D0-51A7-44A7-9EF5-73CC3D9814B3.jpeg" alt="Dru Hill" width="600" height="400">
+      </a>
+      <div class="desc">R&B was really R&B!</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="https://4.bp.blogspot.com/-ndfxG6jdcyA/WyndSs_0MmI/AAAAAAAAb5U/WxpogAKgP-wDlFlPMGu743JvJUxFU-4TwCLcBGAs/s1600/b898f36a90693fc4079c72db97c51c8d.jpg">
+        <img src="https://4.bp.blogspot.com/-ndfxG6jdcyA/WyndSs_0MmI/AAAAAAAAb5U/WxpogAKgP-wDlFlPMGu743JvJUxFU-4TwCLcBGAs/s1600/b898f36a90693fc4079c72db97c51c8d.jpg" alt="Michael Jackson" width="600" height="400">
+      </a>
+      <div class="desc">Michael Jackson was still alive!</div>
+    </div></div>
+  </div>
+
+  
+  <section>
+
+
+
+</body>
+</html>
