@@ -25,19 +25,17 @@
   background-color: #333; 
 }
 
-/* Style the navigation bar links */
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 10px 14px; /
+  text-decoration: none; 
 }
 
-/* Right-aligned link */
 .navbar a.right {
-  float: right; /* Float a link to the right */
+  float: right;
 }
 
 
@@ -81,7 +79,8 @@ div.desc {
 .side {
   flex: 25%; 
   font-size: 30px;
-  background-color: #000000; 
+  background-color: #000000;
+  
   padding: 20px; 
 }
 
@@ -96,20 +95,37 @@ div.desc {
   color: rgb(124, 229, 20);
   
 }
+
+body {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
 </style>
 <body>
-  
  
 
   <div class="header">
+    <a href="https://www.glitter-graphics.com"><img src="http://dl6.glitter-graphics.net/pub/859/859716nqhoiqezuv.gif" width=258 height=180 border=0></a><br><a href="https://www.glitter-graphics.com" target=_blank>glitter-graphics.com</a>
     <marquee width="60%" direction="right" height="150px"><h1>GALLERY</h1></marquee>
   <div class="row">
     <div class="side">
       <ul>
-        <li><a href="http://127.0.0.1:5500/home.html">HOME</a></li>
-        <li><a href="http://127.0.0.1:5500/about.html">ABOUT</a></li>
-        <li><a href="http://127.0.0.1:5500/subscribe.html">SUBSCRIBE</a></li>
-        <li><a href="http://127.0.0.1:5500/contact_us.html">CONTACT</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li><br>
+        <li><a href="http://127.0.0.1:5500/about.html">ABOUT</a></li><br>
+        <li><a href="http://127.0.0.1:5500/videos.html">VIDEOS</a></li><br>
+        <li><a href="http://127.0.0.1:5500/contact_us.html">CONTACT</a></li><br>
      </ul>
   </div>
     <div class="main"><div class="gallery">
@@ -138,12 +154,13 @@ div.desc {
         <img src="https://4.bp.blogspot.com/-ndfxG6jdcyA/WyndSs_0MmI/AAAAAAAAb5U/WxpogAKgP-wDlFlPMGu743JvJUxFU-4TwCLcBGAs/s1600/b898f36a90693fc4079c72db97c51c8d.jpg" alt="Michael Jackson" width="600" height="400">
       </a>
       <div class="desc">Michael Jackson was still alive!</div>
-    </div></div>
+    </div>
   </div>
-
-  
-  <section>
-
+  </div>
+  </div>
+  <footer>
+    <small>&copy; Copyright 2022, T'Vedts 90's Website</small>
+  </footer>
 
 
 </body>

@@ -14,23 +14,17 @@
   text-align: center;
   background-image: url("https://media.istockphoto.com/photos/graffiti-brick-wall-picture-id994331952?k=20&m=994331952&s=612x612&w=0&h=EA7PdCNOPsV7oRTSno68GV9zRd_W-n9nb5bBz2WR3W0=");
   background-size: cover;
-  position: relative;
-  color: white;
-  font-size: 40px;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .navbar {
   overflow: hidden;
   background-color: rgb(44, 186, 25);
+  margin-bottom: 50px;
 }
 
 
@@ -39,7 +33,7 @@ body {
   display: block; 
   color: white; 
   text-align: center; 
-  padding: 14px 50px; 
+  padding: 14px 37px;
   text-decoration: none; 
 }
 
@@ -54,33 +48,77 @@ body {
   color: black; 
 }
 
+img {
+  width: 600px,
+  height: auto
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 50%; 
+  font-size: 20px;
+  background-color: #e90cc8; 
+  padding: 10px; 
+}
+
+
+.main {
+  flex: 50%;
+  background-image: url(https://i.pinimg.com/originals/22/6c/3b/226c3bf38caf91c9f86b9bd994001802.gif);
+  padding: 20px;
+}
+
+footer {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
 </style>
 
-<body>
-  <div class="header">
 
-<section>
+<div class="header">
+
   <div class="navbar">
-        <a href="http://127.0.0.1:5500/home.html">HOME</a>
+        <a href="http://127.0.0.1:5500/index.html">HOME</a>
         <a href="http://127.0.0.1:5500/about.html">ABOUT</a>
         <a href="http://127.0.0.1:5500/gallery.html">GALLERY</a>
+        <a href="http://127.0.0.1:5500/videos.html">VIDEOS</a>
         <a href="http://127.0.0.1:5500/contact_us.html">CONTACT</a>
       
   </div>
-
-  <article>
-    <h1>90's Websites Actually Sucked Pretty Bad</h1>
-    <p>. . . but the music on the otherhand was freakin' awesome!</p>
-    <p>We had acts like Kris Kros, TLC, Jodeci &  LL Cool J, Biggie, 2Pac, Wu-Tang & many more!</p>
-    <img src="https://i.pinimg.com/originals/22/6c/3b/226c3bf38caf91c9f86b9bd994001802.gif">
-
-
-  </article>
-</section>
-
-<footer>
+</div>
+<body>
   
-</footer>
+  <div class="row">
+    <div class="side">
+      <article>
+        <h1>90's Websites Actually Sucked Pretty Bad</h1>
+        <p>. . . but the music on the otherhand was freakin' awesome!</p>
+        <p>We had acts like Aaliyah, TLC, Jodeci, Dru Hill, Biggie, 2Pac, Wu-Tang & many more!</p>
+    </div>
+  </div>
+    <div class="main">
+      <img src="https://i.pinimg.com/originals/22/6c/3b/226c3bf38caf91c9f86b9bd994001802.gif">
+    </div>
+
+<div>
+  <footer> 
+    <small>&copy; Copyright 2022, T'Vedts 90's Website</small>
+  </footer> 
+</div>
+
 
 </body>
 </html>
